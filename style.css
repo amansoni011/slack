@@ -3,7 +3,7 @@
 *{
     padding: 0 !important;
     margin: 0 !important;
-    text-decoration: none;
+    text-decoration: none !important;
     font-family: "Poppins", sans-serif;
 
 }
@@ -60,7 +60,7 @@
     padding: 10px 20px !important;
 }
 
-.container{
+.card{
     background-color: var(--white);
     border-radius: 5px;
     border: 3px solid var(--black);
@@ -111,4 +111,10 @@
 .box-btn{
     background-color: transparent;
     border: 0;
+}
+nav{
+    background-color: var(--purple);
+}
+a{
+    color: #000;
 }
