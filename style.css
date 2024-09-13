@@ -60,9 +60,10 @@
     padding: 10px 20px !important;
 }
 
-.card{
+.team{
     background-color: var(--white);
     border-radius: 5px;
+    width: 1200px;
     border: 3px solid var(--black);
     box-shadow: 5px 10px var(--black);
 }
@@ -117,4 +118,11 @@ nav{
 }
 a{
     color: #000;
+}
+.icon div:nth-child(n){
+    border: 2px solid var(--black);
+    font-size: 20px;
+    /* margin: 80px !important; */
+    padding: 0px 10px !important;
+    border-radius: 50%;
 }
